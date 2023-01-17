@@ -21,6 +21,8 @@ body {
 
     padding: 0;
     margin: 0;
+    background-color: #FCE4DE;
+    border-radius: 0.25rem;
 }
 
 a {
@@ -32,7 +34,7 @@ a {
     margin-top:1rem;
     width: 40%;
     height: 10rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 @media screen and (orientation: landscape) and (max-width:900px){
@@ -63,6 +65,16 @@ a {
 .text {
     background-color:#FCE4DE;
     border-radius: 0.25rem;
+}
+
+.link {
+    color: blue;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .heading {
