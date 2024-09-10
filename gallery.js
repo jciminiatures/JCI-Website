@@ -14,7 +14,7 @@ function fetchGallery(mode){
 function fillGallery(content){
     output = "";
     content.gallery.forEach(element => {
-        output += "<img src=\"./images/gallery/" + element + "\"></img>\n";
+        output += "<div class=\"img-div\"><img src=\"./images/gallery/" + element + "\"></img></div>\n";
     });
     document.getElementById("gallery_output").innerHTML = output;
 }
@@ -31,7 +31,7 @@ function fillHomePage(content){
     }
     output = "";
     indecies.forEach(element => {
-        output += "<img src=\"./images/gallery/" + content.gallery[element] + "\"></img>\n";
+        output += "<div class=\"img-div\"><img src=\"./images/gallery/" + content.gallery[element] + "\"></img></div>\n";
     });
     document.getElementById("homepage_output").innerHTML = output;
 }
