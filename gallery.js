@@ -1,5 +1,5 @@
 function fetchGallery(mode){
-    url = "galleryIMG.json";
+    url = "manifest.json";
     fetch(url).then((response) => {
         if (!response.ok){
             throw new Error(`HTTP error: ${response.status}`);
