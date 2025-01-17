@@ -44,7 +44,7 @@ jobs:
         with:
           python-version: '3.13'
       - name: Create Manifest
-        run: python syncGalleryWithManifest.py
+        run: python createManifest.py
       # Deploy
       - name: Deploy to GitHub Pages
         id: deployment
