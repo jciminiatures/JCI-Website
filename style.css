@@ -124,6 +124,17 @@ ul {
     padding: 0.5rem;
 }
 
+.centered-img-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.centered-img {
+    width: 50%;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
