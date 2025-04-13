@@ -132,7 +132,7 @@ ul {
 }
 
 .centered-img {
-    width: 50%;
+    width: 30%;
 }
 
 .gallery {
@@ -156,11 +156,19 @@ ul {
     .gallery .img-div {
         flex-basis: 32%;
     }
+
+    .centered-img {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width:400px) {
     .gallery .img-div {
         flex-basis: 49%;
+    }
+
+    .centered-img {
+        width: 80%;
     }
 }
 
