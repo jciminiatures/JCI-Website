@@ -132,7 +132,9 @@ ul {
 }
 
 .centered-img {
-    width: 30%;
+    /* width: 30%; */
+    width: auto;
+    height: 50vh;
 }
 
 .gallery {
@@ -159,6 +161,7 @@ ul {
 
     .centered-img {
         width: 60%;
+        height: auto;
     }
 }
 
@@ -168,7 +171,8 @@ ul {
     }
 
     .centered-img {
-        width: 80%;
+        width: 100%;
+        height: auto;
     }
 }
 
